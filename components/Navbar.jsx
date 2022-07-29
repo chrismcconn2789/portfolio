@@ -91,7 +91,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between w-full">
             <div className="-ml-3 -mr-5">
               <Image
-                src="/../public/assets/profile.png"
+                src="https://raw.githubusercontent.com/chrismcconn2789/portfolio/main/public/assets/profile.png"
                 alt="profile"
                 width="50"
                 height="50"
