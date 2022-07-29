@@ -37,11 +37,10 @@ const Navbar = () => {
           <div className="flex flex-row mt-0">
             <div className="">
               <Image
-                src="/../public/assets/profile.png"
+                src="https://raw.githubusercontent.com/chrismcconn2789/portfolio/main/public/assets/profile.png"
                 alt="profile"
                 width="60"
                 height="60"
-                className=""
               />
             </div>
             <h1 className="mx-2 mt-3 text-2xl tracking-wide text-gray-700 align-middle cursor-pointer lg:text-4xl lg:pt-0 lg:mt-2">

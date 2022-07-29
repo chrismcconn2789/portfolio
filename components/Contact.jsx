@@ -18,7 +18,7 @@ const Contact = () => {
             <div className="h-full lg:p-4">
               <div>
                 <Image
-                  src="/../public/assets/contact.jpg"
+                  src="https://raw.githubusercontent.com/chrismcconn2789/portfolio/main/public/assets/contact.jpg"
                   alt="contact"
                   width="640"
                   height="427"
