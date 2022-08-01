@@ -88,8 +88,8 @@ const Navbar = () => {
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
-          <div className="flex items-center justify-between w-full">
-            <div className="-ml-3 -mr-5">
+          <div className="flex items-center justify-between w-full ">
+            <div className="hidden -ml-3 -mr-5">
               <Image
                 src="https://raw.githubusercontent.com/chrismcconn2789/portfolio/main/public/assets/profile.png"
                 alt="profile"
@@ -97,9 +97,11 @@ const Navbar = () => {
                 height="50"
               />
             </div>
-            <h1 className="-mt-2 text-2xl tracking-wide text-gray-700 lg:text-4xl">
-              <span className="text-[#648DE5]">Chris McConnell</span>
-            </h1>
+            <div>
+              <h1 className="-mt-2 text-2xl tracking-wide text-gray-700 lg:text-4xl">
+                <span className="text-[#648DE5]">Chris McConnell</span>
+              </h1>
+            </div>
             <div
               onClick={handleNav}
               className="p-3 rounded-full shadow-lg cursor-pointer shadow-gray-400"
