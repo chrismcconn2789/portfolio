@@ -1,6 +1,7 @@
-import React from "react";
-import ProjectItem from "./ProjectItem";
-import todoProject from "../public/assets/todoproject.png";
+import React from 'react';
+import ProjectItem from './ProjectItem';
+import todoProject from '../public/assets/todoproject.png';
+import weatherProject from '../public/assets/weatherproject.png';
 
 const Projects = () => {
   return (
@@ -10,12 +11,19 @@ const Projects = () => {
           Projects
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
-        <div className="grid gap-8 md:grid-cols-2">
-          <ProjectItem
-            title="ToDo List App"
-            backgroundImg={todoProject}
-            projectUrl="https://github.com/chrismcconn2789/nextjstodo"
-          />
+        <div className="grid w-full">
+          <div className="grid gap-8 md:grid-cols-2">
+            <ProjectItem
+              title="ToDo List App"
+              backgroundImg={todoProject}
+              projectUrl="https://github.com/chrismcconn2789/nextjstodo"
+            />
+            <ProjectItem
+              title="Weather App"
+              backgroundImg={weatherProject}
+              projectUrl="https://github.com/chrismcconn2789/nextjs-weather"
+            />
+          </div>
         </div>
       </div>
     </div>
