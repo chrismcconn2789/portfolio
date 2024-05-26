@@ -2,4 +2,7 @@
 
 # Portfolio Website built using Next.js and Tailwind CSS
 
-WIP Portfolio website to show off my latest projects. See the projects section & more will be added as they're completed.
+WIP Portfolio website to show off my latest projects.
+See the projects section & more will be added as they're completed.
+
+Plans to migrate to Astro for SSG & blog content
